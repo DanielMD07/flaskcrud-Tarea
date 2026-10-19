@@ -1,6 +1,8 @@
 from app import app
 from contacts import contacts
 
+app.register_blueprint(contacts)
+
 #rfgergregerwgreg
 # starting the app
 if __name__ == "__main__":
